@@ -33,7 +33,7 @@
             },
 
             "location": "{{user `location`}}",
-            "vm_size": "{{user `vm_size`}}"
+            "vm_size": "Standard_DS2_v2"
         }
     ],
 
