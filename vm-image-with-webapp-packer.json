@@ -6,7 +6,7 @@
         "tenant_id": null,
         "tomcat_version": null,
         "resource_group": null,
-        "location": null,
+        "location": null
     },
 
     "builders": [
