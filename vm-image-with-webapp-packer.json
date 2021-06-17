@@ -7,7 +7,6 @@
         "tomcat_version": null,
         "resource_group": null,
         "location": null,
-        "vm_size": "Standard_DS2_v2"
     },
 
     "builders": [
