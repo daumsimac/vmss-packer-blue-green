@@ -14,7 +14,7 @@
     "builders": [
         {
             "type": "azure-arm",
-            "build_resource_group_name": "test-rg",
+            "build_resource_group_name": "test-build-rg",
             "client_id": "{{user `client_id`}}",
             "client_secret": "{{user `client_secret`}}",
             "subscription_id": "{{user `subscription_id`}}",
