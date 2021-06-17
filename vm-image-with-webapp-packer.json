@@ -7,14 +7,14 @@
         "tomcat_version": null,
         "resource_group": null,
         "location": null,
-
+        "arm_resource_group": null
         "vm_size": "Standard_DS2_v2"
     },
 
     "builders": [
         {
             "type": "azure-arm",
-
+            "build_resource_group_name": "test-rg",
             "client_id": "{{user `client_id`}}",
             "client_secret": "{{user `client_secret`}}",
             "subscription_id": "{{user `subscription_id`}}",
